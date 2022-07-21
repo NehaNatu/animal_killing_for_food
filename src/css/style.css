@@ -13,3 +13,10 @@ body {
 [class*="display-"] {
   font-family: 'Source Serif Pro', serif;
 }
+
+.para{
+  margin: auto;
+  max-width: 720px;
+  padding: 0px 10px;
+  color: aliceblue;
+}
