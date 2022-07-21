@@ -7,3 +7,5 @@ import enterViewScrolly from '../scrolly/enterViewScrolly';
  * Can have more than one scrolly on a page
  */
 enterViewScrolly('#doge-scrolly');
+enterViewScrolly('#land');
+enterViewScrolly('#water');

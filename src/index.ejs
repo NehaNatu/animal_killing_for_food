@@ -26,12 +26,16 @@
         </section>
 
         <!-- text -->
-        <section class="para">
+        <section class="para mb-3 mt-3">
             <div class="container-fluid">
             <div class="row">
                 <div class="col-12">
                 <!-- This is the line that matters for import -->
-                <p>How is it?</p>
+                <h2>This is the number of animals killed by us each year</h2>
+                <p>A cattle rancher stuns a cow before taking her life.</br>
+                    Slaughterhouse workers herd frightened pigs into claustrophobic chambers, where
+                    they will suffocate and collapse. A worker at a poultry plant shackles chicken after chicken
+                    to a metal conveyor belt to be paralyzed, slashed, & boiled.</p>
                 </div>
             </div>
             </div>
@@ -111,5 +115,60 @@
         <%- include('./scrolly/scrolly.ejs', {id: "doge-scrolly" , blocks: blocks }); %>
         
         </section>
+
+        <section id="land">
+
+            <!-- define the scroll sections -->
+            <% const land_scrolly=
+                [
+                { 
+                    "filename" : "land" , 
+                    "anno" : "_blank-slide_" 
+                }, 
+                { 
+                    "filename" : "land_1" , 
+                    "anno": "The Dogefather"
+                },
+                { 
+                    "filename" : "land_2" , 
+                    "anno": "<div class='h5 fw-bold'> Doge Title </div> Much Doge Such Wow" 
+                }
+                ] 
+            %>
+            <!-- every { filename, anno } object makes a new section -->
+    
+            <!-- include the component -->
+            <%- include('./scrolly/scrolly.ejs', {id: "land" , blocks: land_scrolly }); %>
+            
+            </section>
+
+            <section id="water">
+
+                <!-- define the scroll sections -->
+                <% const water_scrolly=
+                    [
+                    { 
+                        "filename" : "water" , 
+                        "anno" : "_blank-slide_" 
+                    }, 
+                    { 
+                        "filename" : "water_1" , 
+                        "anno": "The Dogefather"
+                    },
+                    { 
+                        "filename" : "water_2" , 
+                        "anno": "<div class='h5 fw-bold'> Doge Title </div> Much Doge Such Wow" 
+                    }
+                    ] 
+                %>
+                <!-- every { filename, anno } object makes a new section -->
+        
+                <!-- include the component -->
+                <%- include('./scrolly/scrolly.ejs', {id: "water" , blocks: water_scrolly }); %>
+                
+                </section>
+
+
+        
 </body>
 </html>
