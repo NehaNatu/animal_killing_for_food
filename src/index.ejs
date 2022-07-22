@@ -55,12 +55,14 @@
 
 
          <!-- text -->
-         <section class="para">
+         <section class="para mb-3 mt-3">
             <div class="container-fluid">
             <div class="row">
                 <div class="col-12">
                 <!-- This is the line that matters for import -->
-                <p>Hi</p>
+                <h2>Meat production - 1961-2018</h2>
+                <p>The meat industry today is not what it was nearly a century ago. The increased demand for meat has made it a rushed mutated production instead of a means
+                    to raise livestock for consumers.</p>
                 </div>
             </div>
             </div>
@@ -77,6 +79,10 @@
         </div>
         </div>
     </section>
+
+    
+            <h2 class="sub-heading">Number of animals slaughtered</h2> </br> </br>
+         
         
      <!-- ai2html -->
      <section class="ai2html">
@@ -89,6 +95,9 @@
         </div>
         </div>
     </section>
+
+    <h2 class="heading_gas">Greenhouse gas emissions for meat production</h2> </br>
+
         <!-- scrolly -->
         <section id="doge-scrolly">
 
@@ -101,11 +110,11 @@
             }, 
             { 
                 "filename" : "gas_1" , 
-                "anno": "The Dogefather"
+                "anno": "_blank-slide_"
             },
             { 
                 "filename" : "gas_2" , 
-                "anno": "<div class='h5 fw-bold'> Doge Title </div> Much Doge Such Wow" 
+                "anno": "_blank-slide_" 
             }
             ] 
         %>
@@ -115,6 +124,10 @@
         <%- include('./scrolly/scrolly.ejs', {id: "doge-scrolly" , blocks: blocks }); %>
         
         </section>
+
+       
+                <h2 class="heading_green"> Land use for meat production</h2>
+
 
         <section id="land">
 
@@ -127,11 +140,15 @@
                 }, 
                 { 
                     "filename" : "land_1" , 
-                    "anno": "The Dogefather"
+                    "anno": "_blank-slide_"
                 },
                 { 
                     "filename" : "land_2" , 
-                    "anno": "<div class='h5 fw-bold'> Doge Title </div> Much Doge Such Wow" 
+                    "anno": "_blank-slide_" 
+                },
+                { 
+                    "filename" : "land_3" , 
+                    "anno": "_blank-slide_" 
                 }
                 ] 
             %>
@@ -141,6 +158,10 @@
             <%- include('./scrolly/scrolly.ejs', {id: "land" , blocks: land_scrolly }); %>
             
             </section>
+
+           
+                <h2 class="heading_water">Water use for meat production & consumption</h2>
+            
 
             <section id="water">
 
@@ -153,11 +174,16 @@
                     }, 
                     { 
                         "filename" : "water_1" , 
-                        "anno": "The Dogefather"
+                        "anno": "_blank-slide_"
                     },
                     { 
                         "filename" : "water_2" , 
-                        "anno": "<div class='h5 fw-bold'> Doge Title </div> Much Doge Such Wow" 
+                        "anno": "_blank-slide_"
+                        
+                    },
+                    { 
+                        "filename" : "water_3" , 
+                        "anno": "_blank-slide_" 
                     }
                     ] 
                 %>
@@ -168,7 +194,17 @@
                 
                 </section>
 
-
+<!-- ai2html -->
+<section class="ai2html">
+    <div class="container-fluid">
+    <div class="row">
+        <div class="col-12">
+        <!-- This is the line that matters for import -->
+        <%- include('./ai2html-output/name.ejs'); %>
+        </div>
+    </div>
+    </div>
+</section>
         
 </body>
 </html>

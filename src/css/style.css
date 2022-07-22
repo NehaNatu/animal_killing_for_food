@@ -23,3 +23,31 @@ body {
 .para h2{
   color: red;
 }
+
+.sub-heading{
+  color: #FFFFFF;
+  width: 720px;
+  margin: 0px auto;
+  /* padding: 0px 5px 3px; */
+}
+
+.heading_green{
+  color: #4da563 !important;
+  width: 720px;
+  margin: 0px auto;
+  /* padding: 0px 5px 3px; */
+}
+
+.heading_water{
+  color: #4C97C9 !important;
+  width: 720px;
+  margin: 0px auto;
+  /* padding: 0px 5px 3px; */
+}
+
+.heading_gas{
+  color: #D11F26 !important;
+  width: 720px;
+  margin: 0px auto;
+  /* padding: 0px 5px 3px; */
+}

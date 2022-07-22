@@ -11474,4 +11474,28 @@ body {
   color: red;
 }
 
+.sub-heading {
+  color: #fff;
+  width: 720px;
+  margin: 0 auto;
+}
+
+.heading_green {
+  width: 720px;
+  margin: 0 auto;
+  color: #4da563 !important;
+}
+
+.heading_water {
+  width: 720px;
+  margin: 0 auto;
+  color: #4c97c9 !important;
+}
+
+.heading_gas {
+  width: 720px;
+  margin: 0 auto;
+  color: #d11f26 !important;
+}
+
 /*# sourceMappingURL=index.c92073ef.css.map */
