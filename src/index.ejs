@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,201 +11,160 @@
     <!-- link the main js file -->
     <script type="module" src="js/app.js" defer></script>
 </head>
+
 <body>
-        
-        
-         <!-- ai2html -->
-         <section class="ai2html">
-            <div class="container-fluid">
-            <div class="row">
-                <div class="col-12">
-                <!-- This is the line that matters for import -->
-                <%- include('./ai2html-output/start_1.ejs'); %>
-                </div>
-            </div>
-            </div>
-        </section>
-
-        <!-- text -->
-        <section class="para mb-3 mt-3">
-            <div class="container-fluid">
-            <div class="row">
-                <div class="col-12">
-                <!-- This is the line that matters for import -->
-                <h2>This is the number of animals killed by us each year</h2>
-                <p>A cattle rancher stuns a cow before taking her life.</br>
-                    Slaughterhouse workers herd frightened pigs into claustrophobic chambers, where
-                    they will suffocate and collapse. A worker at a poultry plant shackles chicken after chicken
-                    to a metal conveyor belt to be paralyzed, slashed, & boiled.</p>
-                </div>
-            </div>
-            </div>
-        </section>
-        
-        <!-- ai2html -->
-        <section class="ai2html">
-            <div class="container-fluid">
-            <div class="row">
-                <div class="col-12">
-                <!-- This is the line that matters for import -->
-                <%- include('./ai2html-output/circlee_a.ejs'); %>
-                </div>
-            </div>
-            </div>
-        </section>
 
 
-         <!-- text -->
-         <section class="para mb-3 mt-3">
-            <div class="container-fluid">
-            <div class="row">
-                <div class="col-12">
-                <!-- This is the line that matters for import -->
-                <h2>Meat production - 1961-2018</h2>
-                <p>The meat industry today is not what it was nearly a century ago. The increased demand for meat has made it a rushed mutated production instead of a means
-                    to raise livestock for consumers.</p>
-                </div>
-            </div>
-            </div>
-        </section>
-
-     <!-- ai2html -->
-     <section class="ai2html">
+    <!-- ai2html -->
+    <section class="ai2html">
         <div class="container-fluid">
-        <div class="row">
-            <div class="col-12">
-            <!-- This is the line that matters for import -->
-            <%- include('./ai2html-output/meat_production.ejs'); %>
+            <div class="row">
+                <div class="col-12">
+                    <!-- This is the line that matters for import -->
+                    <%- include('./ai2html-output/start_1.ejs'); %>
+                </div>
             </div>
-        </div>
         </div>
     </section>
 
-    
-            <h2 class="sub-heading">Number of animals slaughtered</h2> </br> </br>
-         
-        
-     <!-- ai2html -->
-     <section class="ai2html">
+    <!-- text -->
+    <section class="para mb-3 mt-3">
         <div class="container-fluid">
-        <div class="row">
-            <div class="col-12">
-            <!-- This is the line that matters for import -->
-            <%- include('./ai2html-output/pigs_cow.ejs'); %>
+            <div class="row">
+                <div class="col-12">
+                    <!-- This is the line that matters for import -->
+                    <h2>This is the number of animals killed by us each year</h2>
+                    <p>A cattle rancher stuns a cow before taking her life.</br>
+                        Slaughterhouse workers herd frightened pigs into claustrophobic chambers, where
+                        they will suffocate and collapse. A worker at a poultry plant shackles chicken after chicken
+                        to a metal conveyor belt to be paralyzed, slashed, & boiled.</p>
+                </div>
             </div>
-        </div>
         </div>
     </section>
 
-    <h2 class="heading_gas">Greenhouse gas emissions for meat production</h2> </br>
+    <!-- ai2html -->
+    <section class="ai2html">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <!-- This is the line that matters for import -->
+                    <%- include('./ai2html-output/circle_.ejs'); %>
+                </div>
+            </div>
+        </div>
+    </section>
 
-        <!-- scrolly -->
-        <section id="doge-scrolly">
+
+    <!-- text -->
+    <section class="para mb-3 mt-3">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <!-- This is the line that matters for import -->
+                    <h2>Meat production - 1961-2018</h2>
+                    <p>The meat industry today is not what it was nearly a century ago. The increased demand for meat
+                        has made it a rushed mutated production instead of a means
+                        to raise livestock for consumers.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ai2html -->
+    <section class="ai2html">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <!-- This is the line that matters for import -->
+                    <%- include('./ai2html-output/meat_production.ejs'); %>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <h2 class="sub-heading">Number of animals slaughtered</h2> </br> </br>
+
+
+    <!-- ai2html -->
+    <section class="ai2html">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <!-- This is the line that matters for import -->
+                    <%- include('./ai2html-output/pigs_cow-copy.ejs'); %>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ai2html -->
+    <section class="ai2html">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <!-- This is the line that matters for import -->
+                    <%- include('./ai2html-output/how-it-affects.ejs'); %>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- scrolly -->
+    <section id="doge-scrolly">
 
         <!-- define the scroll sections -->
-        <% const blocks=
-            [
-            { 
-                "filename" : "gas" , 
-                "anno" : "_blank-slide_" 
-            }, 
-            { 
-                "filename" : "gas_1" , 
-                "anno": "_blank-slide_"
-            },
-            { 
-                "filename" : "gas_2" , 
-                "anno": "_blank-slide_" 
-            }
-            ] 
-        %>
+        <% const blocks=[ { "filename" : "gas" , "anno" : "_blank-slide_" }, { "filename" : "gas_1" , "anno"
+            : "_blank-slide_" }, { "filename" : "gas_2" , "anno" : "_blank-slide_" } ] %>
         <!-- every { filename, anno } object makes a new section -->
 
         <!-- include the component -->
         <%- include('./scrolly/scrolly.ejs', {id: "doge-scrolly" , blocks: blocks }); %>
-        
-        </section>
 
-       
-                <h2 class="heading_green"> Land use for meat production</h2>
+    </section>
 
 
-        <section id="land">
+    <section id="land">
 
-            <!-- define the scroll sections -->
-            <% const land_scrolly=
-                [
-                { 
-                    "filename" : "land" , 
-                    "anno" : "_blank-slide_" 
-                }, 
-                { 
-                    "filename" : "land_1" , 
-                    "anno": "_blank-slide_"
-                },
-                { 
-                    "filename" : "land_2" , 
-                    "anno": "_blank-slide_" 
-                },
-                { 
-                    "filename" : "land_3" , 
-                    "anno": "_blank-slide_" 
-                }
-                ] 
-            %>
-            <!-- every { filename, anno } object makes a new section -->
-    
-            <!-- include the component -->
-            <%- include('./scrolly/scrolly.ejs', {id: "land" , blocks: land_scrolly }); %>
-            
-            </section>
+        <!-- define the scroll sections -->
+        <% const land_scrolly=[ { "filename" : "land" , "anno" : "_blank-slide_" }, { "filename" : "land_1" , "anno"
+            : "_blank-slide_" }, { "filename" : "land_2" , "anno" : "_blank-slide_" }, { "filename" : "land_3" , "anno"
+            : "_blank-slide_" } ] %>
+        <!-- every { filename, anno } object makes a new section -->
 
-           
-                <h2 class="heading_water">Water use for meat production & consumption</h2>
-            
+        <!-- include the component -->
+        <%- include('./scrolly/scrolly.ejs', {id: "land" , blocks: land_scrolly }); %>
 
-            <section id="water">
+    </section>
 
-                <!-- define the scroll sections -->
-                <% const water_scrolly=
-                    [
-                    { 
-                        "filename" : "water" , 
-                        "anno" : "_blank-slide_" 
-                    }, 
-                    { 
-                        "filename" : "water_1" , 
-                        "anno": "_blank-slide_"
-                    },
-                    { 
-                        "filename" : "water_2" , 
-                        "anno": "_blank-slide_"
-                        
-                    },
-                    { 
-                        "filename" : "water_3" , 
-                        "anno": "_blank-slide_" 
-                    }
-                    ] 
-                %>
-                <!-- every { filename, anno } object makes a new section -->
-        
-                <!-- include the component -->
-                <%- include('./scrolly/scrolly.ejs', {id: "water" , blocks: water_scrolly }); %>
-                
-                </section>
 
-<!-- ai2html -->
-<section class="ai2html">
-    <div class="container-fluid">
-    <div class="row">
-        <div class="col-12">
-        <!-- This is the line that matters for import -->
-        <%- include('./ai2html-output/name.ejs'); %>
+    <section id="water">
+
+        <!-- define the scroll sections -->
+        <% const water_scrolly=[ { "filename" : "water" , "anno" : "_blank-slide_" }, { "filename" : "water_1" , "anno"
+            : "_blank-slide_" }, { "filename" : "water_2" , "anno" : "_blank-slide_" }, { "filename" : "water_3"
+            , "anno" : "_blank-slide_" } ] %>
+        <!-- every { filename, anno } object makes a new section -->
+
+        <!-- include the component -->
+        <%- include('./scrolly/scrolly.ejs', {id: "water" , blocks: water_scrolly }); %>
+
+    </section>
+
+    <!-- ai2html -->
+    <section class="ai2html">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <!-- This is the line that matters for import -->
+                    <%- include('./ai2html-output/name.ejs'); %>
+                </div>
+            </div>
         </div>
-    </div>
-    </div>
-</section>
-        
+    </section>
+
 </body>
+
 </html>
